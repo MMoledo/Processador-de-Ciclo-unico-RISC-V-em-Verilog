@@ -1,0 +1,67 @@
+$date
+	Sun Jun 08 19:30:45 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module UlaTb $end
+$var wire 1 ! zero $end
+$var wire 32 " result [31:0] $end
+$var reg 2 # control [1:0] $end
+$var reg 32 $ op_a [31:0] $end
+$var reg 32 % op_b [31:0] $end
+$scope module uut $end
+$var wire 2 & control [1:0] $end
+$var wire 32 ' op_a [31:0] $end
+$var wire 32 ( op_b [31:0] $end
+$var wire 1 ! zero $end
+$var reg 32 ) result [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 )
+b101 (
+b1010 '
+b0 &
+b101 %
+b1010 $
+b0 #
+b1111 "
+0!
+$end
+#10000
+b111 "
+b111 )
+b1 #
+b1 &
+b11 %
+b11 (
+#20000
+1!
+b0 "
+b0 )
+b101 %
+b101 (
+b101 $
+b101 '
+#30000
+0!
+b111100000000000011110000 "
+b111100000000000011110000 )
+b10 #
+b10 &
+b1111111100000000111111110000 %
+b1111111100000000111111110000 (
+b11110000111100001111000011110000 $
+b11110000111100001111000011110000 '
+#40000
+b11111111111100001111111111110000 "
+b11111111111100001111111111110000 )
+b11 #
+b11 &
+#60000

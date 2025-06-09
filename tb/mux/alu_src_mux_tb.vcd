@@ -1,0 +1,37 @@
+$date
+	Sun Jun 08 21:45:16 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu_src_mux_tb $end
+$var wire 32 ! alu_in2 [31:0] $end
+$var reg 32 " imm_ext [31:0] $end
+$var reg 32 # reg_data2 [31:0] $end
+$var reg 1 $ sel $end
+$scope module uut $end
+$var wire 32 % imm_ext [31:0] $end
+$var wire 32 & reg_data2 [31:0] $end
+$var wire 1 $ sel $end
+$var reg 32 ' alu_in2 [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 '
+b1111 &
+b1100011 %
+0$
+b1111 #
+b1100011 "
+b1111 !
+$end
+#10000
+b1100011 !
+b1100011 '
+1$
+#30000

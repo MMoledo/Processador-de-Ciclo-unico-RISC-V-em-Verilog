@@ -1,0 +1,37 @@
+$date
+	Sun Jun 08 21:45:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module pc_mux_tb $end
+$var wire 32 ! pc_next [31:0] $end
+$var reg 32 " branch_target [31:0] $end
+$var reg 32 # pc_plus4 [31:0] $end
+$var reg 1 $ sel $end
+$scope module uut $end
+$var wire 32 % branch_target [31:0] $end
+$var wire 32 & pc_plus4 [31:0] $end
+$var wire 1 $ sel $end
+$var reg 32 ' pc_next [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 '
+b100 &
+b10000 %
+0$
+b100 #
+b10000 "
+b100 !
+$end
+#10000
+b10000 !
+b10000 '
+1$
+#30000

@@ -1,0 +1,60 @@
+$date
+	Sun Jun 08 20:46:18 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module imm_gen_tb $end
+$var wire 32 ! imm_out [31:0] $end
+$var reg 32 " instr [31:0] $end
+$var reg 2 # sel [1:0] $end
+$scope module uut $end
+$var wire 32 $ instr [31:0] $end
+$var wire 2 % sel [1:0] $end
+$var wire 12 & imm_s [11:0] $end
+$var wire 12 ' imm_i [11:0] $end
+$var wire 13 ( imm_b [12:0] $end
+$var reg 32 ) imm_out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b111 )
+b100000000000 (
+b111 '
+b1 &
+b0 %
+b11100000000000010010011 $
+b0 #
+b11100000000000010010011 "
+b111 !
+$end
+#10000
+b11111111111111111111111111111111 !
+b11111111111111111111111111111111 )
+b111111111111 '
+b111111100001 &
+b1111111100000 (
+b11111111111100000000000010010011 "
+b11111111111100000000000010010011 $
+#20000
+b100 !
+b100 )
+b1010 '
+b100 &
+b100 (
+b1 #
+b1 %
+b101000000000001000100011 "
+b101000000000001000100011 $
+#30000
+b10 '
+b10 #
+b10 %
+b1000001000001001100011 "
+b1000001000001001100011 $
+#50000
