@@ -1,3 +1,8 @@
+# Link para o repositório:
+```
+https://github.com/MMoledo/Processador-de-Ciclo-unico-RISC-V-em-Verilog
+```
+
 # Projeto Final – Arquitetura de Processadores
 
 Implementação de um processador RISC‑V RV32I em arquitetura single‑cycle, desenvolvido em Verilog.
@@ -166,12 +171,11 @@ Arquivo `instructions.mem`:
 ## Como Compilar e Simular
 
 ```bash
+# Entrar no diretório do projeto
+cd .\src\
+
 # Compilar módulos + testbench integrado
-iverilog -o datapath_tb \
-  src/ula.v src/control.v src/regfile.v \
-  src/inst_mem.v src/data_mem.v src/imm_gen.v \
-  src/alu_src_mux.v src/pc_mux.v src/datapath.v \
-  tb/datapath_tb.v
+iverilog -o datapath.vvp datapath.v inst_mem.v data_mem.v regfile.v control.v imm_gen.v alu_src_mux.v pc_mux.v ula.v datapath_tb.v
 
 # Simular e visualizar
 vvp datapath_tb
