@@ -2,6 +2,15 @@
 
 Implementação de um processador RISC‑V RV32I em arquitetura single‑cycle, desenvolvido em Verilog.
 
+## Integrantes
+
+- Adrielle Valascvijus Fernandes | RA: 9333671
+- Alec Emil Meier | RA: 1420906
+- Lavínia Lopes de Lana | RA: 1373644
+- Matheus Moledo Fonseca Vasconcelos | RA: 6225772
+- Michael Douglas Santos Costa | RA: 9683205
+- Raquel Nazaré Belfort Costa | RA: 1016513
+
 ---
 
 ## Estrutura de Repositório
